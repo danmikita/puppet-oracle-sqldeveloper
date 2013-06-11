@@ -6,7 +6,7 @@
 
 class oracle_sqldeveloper {
   package { 'SQLDeveloper':
-    provider => 'pkgdmg',
+    provider => 'appdmg',
     source   => 'https://dl.dropboxusercontent.com/u/2261841/OracleSQLDeveloper-3.2.20.09.87.dmg'
   }
 }
