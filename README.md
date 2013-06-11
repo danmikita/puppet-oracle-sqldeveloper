@@ -7,6 +7,13 @@ This package is simply for your convenience only. Because Oracle requires web lo
 
 ## Usage
 
+In `Puppetfile`:
+
+```
+github "oracle_sqldeveloper",    "0.0.3", :repo => "anthonywu/puppet-oracle-sqldeveloper"
+```
+
+In `site.pp`:
 ```puppet
 include oracle_sqldeveloper
 ```
