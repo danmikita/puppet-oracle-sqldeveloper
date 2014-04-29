@@ -4,7 +4,7 @@ describe 'oracle_sqldeveloper' do
   it do
     should contain_package('SQLDeveloper').with({
       :provider => 'appdmg',
-      :source   => 'https://dl.dropboxusercontent.com/u/2261841/OracleSQLDeveloper-3.2.20.09.87.dmg'
+      :source   => 'https://dl.dropboxusercontent.com/s/u39vftqojzumob2/sqldeveloper-4.0.1.14.48-macosx.dmg'
     })
   end
 end
