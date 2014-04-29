@@ -6,7 +6,7 @@
 
 class oracle_sqldeveloper {
   package { 'SQLDeveloper':
-    provider => 'appdmg',
+    provider => 'pkgdmg',
     source   => 'https://dl.dropboxusercontent.com/s/u39vftqojzumob2/sqldeveloper-4.0.1.14.48-macosx.dmg'
   }
 }
